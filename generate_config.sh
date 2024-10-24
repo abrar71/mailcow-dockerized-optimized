@@ -171,7 +171,7 @@ if [ -z "${SKIP_CLAMD}" ]; then
       ;;
     esac
   else
-    SKIP_CLAMD=n
+    SKIP_CLAMD=y
   fi
 fi
 
@@ -193,7 +193,7 @@ if [ -z "${SKIP_SOLR}" ]; then
       ;;
     esac
   else
-    SKIP_SOLR=n
+    SKIP_SOLR=y
   fi
 fi
 

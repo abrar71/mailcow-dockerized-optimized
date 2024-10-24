@@ -171,5 +171,10 @@ submission_smtpd_tls_mandatory_protocols = >=TLSv1.2
 smtps_smtpd_tls_mandatory_protocols = >=TLSv1.2
 parent_domain_matches_subdomains = debug_peer_list,fast_flush_domains,mynetworks,qmqpd_authorized_clients
 
+smtpd_error_sleep_time = 0
+default_destination_concurrency_limit = 25000
+default_process_limit = 25000
+smtpd_client_connection_count_limit = 25000
+
 # DO NOT EDIT ANYTHING BELOW #
 # Overrides #
